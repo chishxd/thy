@@ -18,6 +18,7 @@ I'm Chish, a CS student who builds low-level things to understand them: a Chip-8
         <a href="https://neovim.io" target="_blank" rel="noopener"><img src="/buttons/made-with-neovim.gif" width="88" height="31" alt="Made with Neovim"></a>
         <a href="https://neocities.org" target="_blank" rel="noopener"><img src="/buttons/neocitiespink.gif" width="88" height="31" alt="Neocities"></a>
         <a href="https://www.mobiusdigitalgames.com/outer-wilds.html" target="_blank" rel="noopener"><img src="/buttons/outer-wilds.gif" width="88" height="31" alt="Outer Wilds"></a>
+        <a href="https://codeberg.org/chish" target="_blank" rel="noopener"><img src="/buttons/codeberg.png" width="88" height="31" alt="Check out my Codeberg"></a>
         <a href="https://github.com/chishxd" target="_blank" rel="noopener"><img src="/buttons/github-check.gif" width="88" height="31" alt="Check out my GitHub"></a>
         <a href="https://www.daftpunk.com" target="_blank" rel="noopener"><img src="/buttons/daft-punk.gif" width="88" height="31" alt="Daft Punk"></a>
         <a href="https://one-piece.com" target="_blank" rel="noopener"><img src="/buttons/one-piece.jpg" width="88" height="31" alt="One Piece"></a>
