@@ -44,6 +44,10 @@ mv ~/.config/nvim ~/.config/nvim-lazyvim
 mkdir ~/.config/nvim
 touch ~/.config/nvim/init.lua
 ```
+> [!TIP]
+> A side note: You can also add an alias like `nvl` in your shell config for easier access!
+> My Fish has alias:
+> `alias nvl = NVIM_APPNAME="nvim-lazyvim" nvim`
 
 ## Starting with clean slate
 

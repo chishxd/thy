@@ -25,6 +25,7 @@ taxonomies = [{ name = "tags" }]
 
 [markdown]
 insert_anchor_links = "left"
+github_alerts = true
 
 [markdown.highlighting]
 # Matches the site's dark background. The "css" option would emit

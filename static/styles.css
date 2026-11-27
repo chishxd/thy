@@ -136,3 +136,14 @@ footer {
 }
 
 .webring { white-space: nowrap; }
+
+blockquote[class^="markdown-alert"] { color: var(--text); border-left-color: var(--alert, var(--muted)); }
+blockquote[class^="markdown-alert"]::before {
+  content: var(--label); display: block; margin-bottom: 0.3rem;
+  font: 0.85rem var(--mono); color: var(--alert, var(--muted));
+}
+blockquote[class="markdown-alert-note"]      { --label: "Note";      --alert: light-dark(#35597f, #8fb0d6); }
+blockquote[class="markdown-alert-tip"]       { --label: "Tip";       --alert: light-dark(#2f6b4f, #7fbf9f); }
+blockquote[class="markdown-alert-important"] { --label: "Important"; --alert: light-dark(#6b4c8a, #b79ad6); }
+blockquote[class="markdown-alert-warning"]   { --label: "Warning";   --alert: light-dark(#8a5a00, #e0a458); }
+blockquote[class="markdown-alert-caution"]   { --label: "Caution";   --alert: var(--accent); }
