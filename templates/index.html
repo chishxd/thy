@@ -34,10 +34,17 @@
 <hr>
 <h2>Recent devlogs</h2>
 <ul>
-  {% for devlog_path in devlogs.subsections %}
-  {% set devlog = get_section(path=devlog_path) %}
-  <li><a href="{{ devlog.permalink }}">{{ devlog.title }}</a></li>
-  {% endfor %}
+{% for devlog_path in devlogs.subsections %}
+{% set devlog = get_section(path=devlog_path) %}
+<li>
+  <a href="{{ devlog.permalink }}">{{ devlog.title }}</a>
+  {% if devlog.pages %}
+    {% set latest = devlog.pages | first %}
+    {% if latest.date %}<small>latest entry {{ latest.date | date(format="%Y-%m-%d") }}</small>{% endif %}
+  {% endif %}
+  {% if devlog.description %}<p>{{ devlog.description }}</p>{% endif %}
+</li>
+{% endfor %}
 </ul>
 <p><a href="{{ devlogs.permalink }}">all devlogs</a></p>
 {% endif %}
